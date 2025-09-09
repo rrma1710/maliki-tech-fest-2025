@@ -20,17 +20,28 @@ class _MyAppState extends State<MyApp> {
     super.initState();
   }
 
-  void _incrementCounter() {
+  //solusi menggunakan boolean
+  void _updateCounter(bool isIncrement) {
     setState(() {
-      _counter++;
+      if (isIncrement) {
+        _counter++;
+      } else {
+        if (_counter > 0) _counter--;
+      }
     });
   }
 
-  void _decrementCounter() {
-    setState(() {
-      _counter--;
-    });
-  }
+  // void _incrementCounter() {
+  //   setState(() {
+  //     _counter++;
+  //   });
+  // }
+
+  // void _decrementCounter() {
+  //   setState(() {
+  //     _counter--;
+  //   });
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -52,7 +63,8 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                     onPressed: () {
-                      _decrementCounter();
+                      _updateCounter(false);
+                      // _decrementCounter();
                     },
                     child: Icon(Icons.remove),
                   ),
@@ -70,7 +82,8 @@ class _MyAppState extends State<MyApp> {
                       ),
                     ),
                     onPressed: () {
-                      _incrementCounter();
+                      _updateCounter(true);
+                      // _incrementCounter();
                     },
                     child: Icon(Icons.add),
                   ),
