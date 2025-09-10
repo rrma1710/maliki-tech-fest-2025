@@ -1,5 +1,4 @@
-import 'package:day2/study_case_3.dart';
-import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
 
 void main(List<String> args) {
   runApp(MyApp());
@@ -15,6 +14,16 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return MaterialApp(
+      home: Scaffold(
+        appBar: AppBar(title: Text('Study Case 4 - Day 2')),
+        body: GestureDetector(
+          onTap: () {
+            print('Container di tekan');
+            print('Waktu : ${DateTime.now()}');
+          },
+        ),
+      ),
+    );
   }
 }
