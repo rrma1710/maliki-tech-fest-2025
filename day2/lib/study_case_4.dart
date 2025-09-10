@@ -39,7 +39,7 @@ class _MyAppState extends State<MyApp> {
               ),
               child: Center(
                 child: Text(
-                  'Tekan Saya',
+                  'Tekan Tombol',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20,
