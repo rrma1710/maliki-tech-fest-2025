@@ -41,6 +41,13 @@ class _MyAppState extends State<MyApp> {
                 child: Text(
                   'Tekan Tombol',
                   style: TextStyle(
+                    shadows: [
+                      Shadow(
+                        color: Colors.black26,
+                        offset: Offset(2, 2),
+                        blurRadius: 3,
+                      ),
+                    ],
                     color: Colors.white,
                     fontSize: 20,
                     fontWeight: FontWeight.bold,
