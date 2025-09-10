@@ -1,5 +1,22 @@
 import 'package:flutter/material.dart';
 
+/*
+🧑‍💻 Study Kasus 3
+Gabungkan dua study case sebelumnya, menjadi 1 File
+
+AppBar bertuliskan "Study Case Day-1"
+Body berisi:
+Teks "Selamat Datang di Flutter!".
+TextField
+Jika user memasukan nama maka rubah teks "Selamat Datang ${inputan_user} di Flutter!"
+Hasil:
+
+Halaman dengan judul AppBar "Study Case Day-1".
+Body menampilkan teks "Selamat Datang di Flutter!".
+Teks Berada di tengah halaman.
+Teks bisa berubah sesuai dengan apa yang user inputkan.
+*/
+
 void main(List<String> args) {
   runApp(MyApp());
 }

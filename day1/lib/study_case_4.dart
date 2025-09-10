@@ -1,5 +1,17 @@
 import 'package:flutter/material.dart';
 
+/*
+🧑‍💻 Study Kasus 4
+Tambahkan fitur counter untuk menambah nilai dari "Day-1"
+
+Hasil (awalnya):
+
+"Study Case Day-1"
+Hasil (setelah menekan tombol + dua kali):
+
+"Study Case Day-2"
+*/
+
 void main(List<String> args) {
   runApp(MyApp());
 }

@@ -1,5 +1,18 @@
 import 'package:flutter/material.dart';
 
+/*
+🧑‍💻 Study Kasus 2
+Tambahkan inputan dengan menggunakan widget TextField untuk memasukkan nama. Jika user tidak memasukkan nama, tampilkan teks default "Pengguna", di atasnya.
+
+Hasil (misal input kosong):
+
+Pengguna
+Hasil (misal input = "Ghozi"):
+
+Ghozi
+
+*/
+
 void main(List<String> args) {
   runApp(MyApp());
 }

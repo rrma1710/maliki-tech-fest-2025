@@ -1,5 +1,23 @@
 import 'package:flutter/material.dart';
 
+/*
+🧑‍💻 Study Kasus 1
+Buatlah aplikasi sederhana dengan struktur:
+
+MaterialApp → root aplikasi
+Scaffold → struktur halaman utama
+AppBar → judul "Study Case Day-1"
+Body → teks "Selamat Datang di Flutter!"
+FloatingActionButton → tombol tambah (+)
+
+Hasil:
+
+Halaman dengan judul AppBar "Study Case Day-1".
+Body menampilkan teks "Selamat Datang di Flutter!".
+Teks Berada di tengah halaman.
+Tombol + di pojok kanan bawah.
+*/
+
 void main() {
   runApp(const MyApp());
 }
