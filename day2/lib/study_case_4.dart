@@ -1,5 +1,14 @@
 import 'package:flutter/material.dart';
 
+/*
+🧑‍💻 Study Kasus 4
+Jadikan container sebelumnya bisa mendeteksi tap, lalu menampilkan pesan di console.
+
+Hasil:
+
+Container sebelumnya bisa di pencet dan mengembalikan nilai di console.
+*/
+
 void main(List<String> args) {
   runApp(MyApp());
 }

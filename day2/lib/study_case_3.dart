@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
 
+/*
+🧑‍💻 Study Kasus 3
+Tambahkan gambar di kotak 2 atas, dengan gambar Lokal dan 2 kotak bawah dengan gambar Internet.
+
+Hasil:
+
+Container dengan gambar.
+*/
+
+
 void main(List<String> args) {
   runApp(MyApp());
 }
