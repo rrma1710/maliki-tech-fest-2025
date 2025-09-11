@@ -45,9 +45,6 @@ class _MyAppState extends State<MyApp> {
                             'assets/gunung1.jpg',
                             fit: BoxFit.fill,
                           ),
-                          color: Colors.amber,
-                          height: 100,
-                          width: 100,
                         ),
                       ),
                       Padding(
