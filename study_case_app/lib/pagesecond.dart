@@ -16,10 +16,11 @@ class _PageSecondState extends State<PageSecond> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Study Case Day - 2')),
+        appBar: AppBar(title: Text('Study Case Day - 1')),
         body: Padding(
           padding: const EdgeInsets.all(8.0),
           child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Padding(
                 padding: const EdgeInsets.all(8.0),
