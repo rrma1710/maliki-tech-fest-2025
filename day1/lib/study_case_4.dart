@@ -59,7 +59,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(title: Text('Study Case 4 - Day ${_counter}')),
+        appBar: AppBar(title: Text('Study Case 4 - Day $_counter')),
         body: Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,

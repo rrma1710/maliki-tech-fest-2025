@@ -9,7 +9,6 @@ Hasil:
 Container dengan gambar.
 */
 
-
 void main(List<String> args) {
   runApp(MyApp());
 }
@@ -41,6 +40,9 @@ class _MyAppState extends State<MyApp> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
+                          color: Colors.amber,
+                          height: 100,
+                          width: 100,
                           child: Image.asset(
                             'assets/gunung1.jpg',
                             fit: BoxFit.fill,
@@ -50,13 +52,13 @@ class _MyAppState extends State<MyApp> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
+                          color: Colors.blue,
+                          height: 100,
+                          width: 100,
                           child: Image.asset(
                             'assets/gunung2.jpg',
                             fit: BoxFit.fill,
                           ),
-                          color: Colors.blue,
-                          height: 100,
-                          width: 100,
                         ),
                       ),
                     ],
@@ -73,25 +75,25 @@ class _MyAppState extends State<MyApp> {
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
+                          color: Colors.green,
+                          height: 100,
+                          width: 100,
                           child: Image.network(
                             'https://ibeka.or.id/wp-content/uploads/2023/10/tanah-lot-temple-bali-island-indonesia_335224-394.jpg',
                             fit: BoxFit.fill,
                           ),
-                          color: Colors.green,
-                          height: 100,
-                          width: 100,
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.all(8.0),
                         child: Container(
+                          color: Colors.red,
+                          height: 100,
+                          width: 100,
                           child: Image.network(
                             'https://tidunglagoon.com/wp-content/uploads/2025/03/laoot.jpg',
                             fit: BoxFit.fill,
                           ),
-                          color: Colors.red,
-                          height: 100,
-                          width: 100,
                         ),
                       ),
                     ],
